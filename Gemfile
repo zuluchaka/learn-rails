@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '5.0.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -36,13 +36,15 @@ end
 
 # learn-rails
 gem 'activerecord-tableless'
-gem 'compass-rails','~> 2.0.alpha.0'
+gem 'compass-rails', '2.0.4'
 gem 'figaro', "~> 1.0.0"
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
+#gem 'sprockets', '~> 3.2.0'
+#gem 'sprockets-rails', '~> 2.3.2'
 
 
 group :development, :test do
